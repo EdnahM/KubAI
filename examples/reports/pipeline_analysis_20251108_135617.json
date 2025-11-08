@@ -1,0 +1,1251 @@
+{
+  "timestamp": "2025-11-08T13:56:17.946790",
+  "pipeline_type": "both",
+  "devops": {
+    "data": {
+      "source": "jenkins",
+      "url": "default",
+      "builds": [
+        {
+          "id": "build-0",
+          "status": "success",
+          "duration": 753,
+          "timestamp": "2025-11-03T13:56:17.947018"
+        },
+        {
+          "id": "build-1",
+          "status": "failed",
+          "duration": 238,
+          "timestamp": "2025-11-07T13:56:17.947064"
+        },
+        {
+          "id": "build-2",
+          "status": "success",
+          "duration": 552,
+          "timestamp": "2025-11-03T13:56:17.947098"
+        },
+        {
+          "id": "build-3",
+          "status": "success",
+          "duration": 210,
+          "timestamp": "2025-11-03T13:56:17.947117"
+        },
+        {
+          "id": "build-4",
+          "status": "failed",
+          "duration": 541,
+          "timestamp": "2025-11-05T13:56:17.947135"
+        },
+        {
+          "id": "build-5",
+          "status": "failed",
+          "duration": 883,
+          "timestamp": "2025-11-07T13:56:17.947152"
+        },
+        {
+          "id": "build-6",
+          "status": "success",
+          "duration": 797,
+          "timestamp": "2025-11-05T13:56:17.947162"
+        },
+        {
+          "id": "build-7",
+          "status": "success",
+          "duration": 571,
+          "timestamp": "2025-11-02T13:56:17.947171"
+        },
+        {
+          "id": "build-8",
+          "status": "success",
+          "duration": 466,
+          "timestamp": "2025-11-07T13:56:17.947181"
+        },
+        {
+          "id": "build-9",
+          "status": "failed",
+          "duration": 612,
+          "timestamp": "2025-11-01T13:56:17.947189"
+        },
+        {
+          "id": "build-10",
+          "status": "failed",
+          "duration": 689,
+          "timestamp": "2025-11-01T13:56:17.947199"
+        },
+        {
+          "id": "build-11",
+          "status": "success",
+          "duration": 747,
+          "timestamp": "2025-11-07T13:56:17.947208"
+        },
+        {
+          "id": "build-12",
+          "status": "success",
+          "duration": 854,
+          "timestamp": "2025-11-08T13:56:17.947217"
+        },
+        {
+          "id": "build-13",
+          "status": "failed",
+          "duration": 892,
+          "timestamp": "2025-11-02T13:56:17.947226"
+        },
+        {
+          "id": "build-14",
+          "status": "success",
+          "duration": 835,
+          "timestamp": "2025-11-05T13:56:17.947241"
+        },
+        {
+          "id": "build-15",
+          "status": "success",
+          "duration": 333,
+          "timestamp": "2025-11-07T13:56:17.947250"
+        },
+        {
+          "id": "build-16",
+          "status": "success",
+          "duration": 213,
+          "timestamp": "2025-11-03T13:56:17.947258"
+        },
+        {
+          "id": "build-17",
+          "status": "success",
+          "duration": 697,
+          "timestamp": "2025-11-06T13:56:17.947267"
+        },
+        {
+          "id": "build-18",
+          "status": "failed",
+          "duration": 589,
+          "timestamp": "2025-11-08T13:56:17.947280"
+        },
+        {
+          "id": "build-19",
+          "status": "success",
+          "duration": 879,
+          "timestamp": "2025-11-02T13:56:17.947288"
+        }
+      ],
+      "tests": [
+        {
+          "name": "test_auth",
+          "status": "passed",
+          "duration": 19
+        },
+        {
+          "name": "test_auth",
+          "status": "passed",
+          "duration": 19
+        },
+        {
+          "name": "test_auth",
+          "status": "passed",
+          "duration": 7
+        },
+        {
+          "name": "test_auth",
+          "status": "failed",
+          "duration": 25
+        },
+        {
+          "name": "test_auth",
+          "status": "failed",
+          "duration": 2
+        },
+        {
+          "name": "test_auth",
+          "status": "passed",
+          "duration": 10
+        },
+        {
+          "name": "test_auth",
+          "status": "failed",
+          "duration": 7
+        },
+        {
+          "name": "test_auth",
+          "status": "passed",
+          "duration": 20
+        },
+        {
+          "name": "test_auth",
+          "status": "passed",
+          "duration": 17
+        },
+        {
+          "name": "test_auth",
+          "status": "failed",
+          "duration": 25
+        },
+        {
+          "name": "test_api",
+          "status": "passed",
+          "duration": 15
+        },
+        {
+          "name": "test_api",
+          "status": "passed",
+          "duration": 6
+        },
+        {
+          "name": "test_api",
+          "status": "failed",
+          "duration": 15
+        },
+        {
+          "name": "test_api",
+          "status": "passed",
+          "duration": 30
+        },
+        {
+          "name": "test_api",
+          "status": "passed",
+          "duration": 24
+        },
+        {
+          "name": "test_api",
+          "status": "failed",
+          "duration": 20
+        },
+        {
+          "name": "test_api",
+          "status": "failed",
+          "duration": 2
+        },
+        {
+          "name": "test_api",
+          "status": "passed",
+          "duration": 9
+        },
+        {
+          "name": "test_api",
+          "status": "passed",
+          "duration": 21
+        },
+        {
+          "name": "test_api",
+          "status": "passed",
+          "duration": 9
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 18
+        },
+        {
+          "name": "test_database",
+          "status": "failed",
+          "duration": 7
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 5
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 2
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 20
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 24
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 11
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 12
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 9
+        },
+        {
+          "name": "test_database",
+          "status": "passed",
+          "duration": 14
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 17
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 15
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 26
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 15
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 24
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 24
+        },
+        {
+          "name": "test_integration",
+          "status": "failed",
+          "duration": 30
+        },
+        {
+          "name": "test_integration",
+          "status": "failed",
+          "duration": 24
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 28
+        },
+        {
+          "name": "test_integration",
+          "status": "passed",
+          "duration": 25
+        }
+      ],
+      "deployments": [
+        {
+          "id": "deploy-0",
+          "status": "success",
+          "environment": "staging",
+          "timestamp": "2025-11-08T13:56:17.947397"
+        },
+        {
+          "id": "deploy-1",
+          "status": "failed",
+          "environment": "staging",
+          "timestamp": "2025-11-07T13:56:17.947408"
+        },
+        {
+          "id": "deploy-2",
+          "status": "success",
+          "environment": "production",
+          "timestamp": "2025-11-01T13:56:17.947418"
+        },
+        {
+          "id": "deploy-3",
+          "status": "failed",
+          "environment": "staging",
+          "timestamp": "2025-11-07T13:56:17.947427"
+        },
+        {
+          "id": "deploy-4",
+          "status": "success",
+          "environment": "staging",
+          "timestamp": "2025-11-04T13:56:17.947435"
+        },
+        {
+          "id": "deploy-5",
+          "status": "failed",
+          "environment": "staging",
+          "timestamp": "2025-11-07T13:56:17.947444"
+        },
+        {
+          "id": "deploy-6",
+          "status": "success",
+          "environment": "production",
+          "timestamp": "2025-11-08T13:56:17.947452"
+        },
+        {
+          "id": "deploy-7",
+          "status": "success",
+          "environment": "staging",
+          "timestamp": "2025-11-03T13:56:17.947460"
+        },
+        {
+          "id": "deploy-8",
+          "status": "failed",
+          "environment": "production",
+          "timestamp": "2025-11-04T13:56:17.947469"
+        },
+        {
+          "id": "deploy-9",
+          "status": "success",
+          "environment": "production",
+          "timestamp": "2025-11-07T13:56:17.947481"
+        }
+      ],
+      "resources": {
+        "cpu_usage": [
+          81.58571407901898,
+          83.83331396450234,
+          63.85786210218512,
+          91.36212588779532,
+          46.97952254522402,
+          75.53234987718315,
+          86.97953314178949,
+          65.08450164784597,
+          72.04827773341064,
+          93.84137492480562,
+          61.816851768316454,
+          53.26351803735597,
+          89.07758408115066,
+          44.938982940652274,
+          53.71236397555316,
+          54.699126947285244,
+          61.600438854118906,
+          73.54502315189067,
+          77.36734758735372,
+          42.09705441570183
+        ],
+        "memory_usage": [
+          61.86033230087928,
+          62.85145098786685,
+          53.312401914039114,
+          82.18136145629602,
+          89.62114654668895,
+          59.80276398429503,
+          58.378370141078605,
+          51.52134496754707,
+          56.540382881060765,
+          55.23002050620776,
+          72.94521982424428,
+          59.4161970676712,
+          82.62603559526477,
+          53.54435358287022,
+          82.04526921850052,
+          62.36426641144338,
+          84.97914493598502,
+          74.37028858994636,
+          89.30662013742048,
+          89.06084044277733
+        ],
+        "disk_usage": [
+          36.45148357139827,
+          56.39624830285651,
+          56.73710384013775,
+          68.35821789216908,
+          37.00148545351698,
+          33.095046837458376,
+          68.57680237795226,
+          44.043640726769986,
+          42.67509189314574,
+          48.00261715853007,
+          63.91830161119325,
+          52.3334897428497,
+          32.14782617769276,
+          33.57491179875115,
+          63.291539086707694,
+          64.5493271484228,
+          54.359742675245535,
+          49.285358302105195,
+          66.08923652181795,
+          43.38642677701873
+        ]
+      },
+      "security_scans": [
+        {
+          "timestamp": "2025-11-08T13:56:17.947531",
+          "vulnerabilities": []
+        }
+      ]
+    },
+    "issues": [
+      {
+        "severity": "critical",
+        "category": "reliability",
+        "title": "High Deployment Failure Rate",
+        "description": "Deployment failure rate is 40.0%",
+        "affected_component": "Deployment Pipeline",
+        "impact": "Failed deployments cause service disruptions, rollbacks, and delayed feature releases",
+        "recommendation": "Review deployment process, implement better pre-deployment testing, add automated rollback mechanisms, improve deployment scripts",
+        "confidence": 0.92,
+        "metadata": {
+          "failure_rate": 0.4,
+          "failed_count": 4,
+          "total_count": 10
+        }
+      },
+      {
+        "severity": "high",
+        "category": "reliability",
+        "title": "High Build Failure Rate",
+        "description": "Build failure rate is 35.0%, indicating instability",
+        "affected_component": "Build Process",
+        "impact": "7 out of 20 builds failed. This blocks deployments and wastes resources",
+        "recommendation": "Investigate common failure patterns, improve test stability, add pre-commit hooks, review recent code changes",
+        "confidence": 0.95,
+        "metadata": {
+          "failure_rate": 0.35,
+          "failed_count": 7,
+          "total_count": 20
+        }
+      },
+      {
+        "severity": "high",
+        "category": "performance",
+        "title": "High CPU Usage",
+        "description": "CPU usage reached 93.8% (average: 68.7%)",
+        "affected_component": "Build Infrastructure",
+        "impact": "High CPU usage causes build slowdowns, potential timeouts, and resource contention",
+        "recommendation": "Scale build agents, optimize build processes, distribute workload, investigate CPU-intensive operations",
+        "confidence": 0.88,
+        "metadata": {
+          "max_cpu": 93.84137492480562,
+          "avg_cpu": 68.66114338315698
+        }
+      },
+      {
+        "severity": "high",
+        "category": "performance",
+        "title": "High Memory Usage",
+        "description": "Memory usage reached 89.6% (average: 69.1%)",
+        "affected_component": "Build Infrastructure",
+        "impact": "High memory usage can cause OOM errors, build failures, and system instability",
+        "recommendation": "Increase memory allocation, optimize memory-intensive processes, investigate memory leaks, add memory monitoring",
+        "confidence": 0.87,
+        "metadata": {
+          "max_memory": 89.62114654668895,
+          "avg_memory": 69.09789057460415
+        }
+      },
+      {
+        "severity": "high",
+        "category": "reliability",
+        "title": "Flaky Tests Detected",
+        "description": "Found 3 flaky tests with intermittent failures",
+        "affected_component": "Test Suite",
+        "impact": "Flaky tests reduce confidence in test results, waste time investigating false failures, and may mask real issues",
+        "recommendation": "Investigate and fix flaky tests: test_auth, test_api, test_integration. Common causes: timing issues, shared state, external dependencies",
+        "confidence": 0.85,
+        "metadata": {
+          "flaky_tests": [
+            {
+              "name": "test_auth",
+              "failure_rate": 0.4
+            },
+            {
+              "name": "test_api",
+              "failure_rate": 0.3
+            },
+            {
+              "name": "test_integration",
+              "failure_rate": 0.2
+            }
+          ]
+        }
+      },
+      {
+        "severity": "medium",
+        "category": "performance",
+        "title": "Slow Build Times",
+        "description": "Average build time is 608 seconds, exceeding recommended threshold",
+        "affected_component": "CI/CD Pipeline",
+        "impact": "Delayed feedback cycles, reduced developer productivity. Average delay: 308s per build",
+        "recommendation": "Consider: 1) Enable build caching, 2) Parallelize test execution, 3) Use faster build agents, 4) Optimize dependency resolution",
+        "confidence": 0.9,
+        "metadata": {
+          "avg_duration": 608.2307692307693,
+          "sample_size": 13
+        }
+      }
+    ],
+    "summary": {
+      "total": 6,
+      "by_severity": {
+        "critical": 1,
+        "high": 4,
+        "medium": 1
+      },
+      "by_category": {
+        "reliability": 3,
+        "performance": 3
+      }
+    }
+  },
+  "mlops": {
+    "data": {
+      "source": "mlflow",
+      "tracking_uri": "default",
+      "experiments": [
+        {
+          "id": "exp-0",
+          "name": "model_v0",
+          "tags": {
+            "model_type": "classifier",
+            "version": "v0"
+          }
+        },
+        {
+          "id": "exp-1",
+          "name": "model_v1",
+          "tags": {}
+        },
+        {
+          "id": "exp-2",
+          "name": "model_v2",
+          "tags": {}
+        },
+        {
+          "id": "exp-3",
+          "name": "model_v3",
+          "tags": {
+            "model_type": "classifier",
+            "version": "v3"
+          }
+        },
+        {
+          "id": "exp-4",
+          "name": "model_v4",
+          "tags": {}
+        },
+        {
+          "id": "exp-5",
+          "name": "model_v5",
+          "tags": {}
+        },
+        {
+          "id": "exp-6",
+          "name": "model_v6",
+          "tags": {
+            "model_type": "classifier",
+            "version": "v6"
+          }
+        },
+        {
+          "id": "exp-7",
+          "name": "model_v7",
+          "tags": {}
+        },
+        {
+          "id": "exp-8",
+          "name": "model_v8",
+          "tags": {}
+        },
+        {
+          "id": "exp-9",
+          "name": "model_v9",
+          "tags": {
+            "model_type": "classifier",
+            "version": "v9"
+          }
+        },
+        {
+          "id": "exp-10",
+          "name": "model_v10",
+          "tags": {}
+        },
+        {
+          "id": "exp-11",
+          "name": "model_v11",
+          "tags": {}
+        },
+        {
+          "id": "exp-12",
+          "name": "model_v12",
+          "tags": {
+            "model_type": "classifier",
+            "version": "v12"
+          }
+        },
+        {
+          "id": "exp-13",
+          "name": "model_v13",
+          "tags": {}
+        },
+        {
+          "id": "exp-14",
+          "name": "model_v14",
+          "tags": {}
+        }
+      ],
+      "training_runs": [
+        {
+          "id": "run-0",
+          "status": "failed",
+          "duration": 11077,
+          "gpu_utilization": [
+            84.97854539467225,
+            91.3403155334282,
+            75.13774443723658,
+            88.16019694734374,
+            52.8181918781126,
+            73.96445439570358,
+            66.37685335834152,
+            71.85930166195377,
+            53.33386728130313,
+            93.65170265697418
+          ],
+          "timestamp": "2025-11-01T13:56:17.948567"
+        },
+        {
+          "id": "run-1",
+          "status": "completed",
+          "duration": 8787,
+          "gpu_utilization": [
+            66.78918725201095,
+            92.74606001969858,
+            64.35270104045433,
+            84.87205056865481,
+            63.338905406503144,
+            90.84333085302862,
+            66.3809786892312,
+            55.07044465428382,
+            54.06966946900603,
+            56.92655095288609
+          ],
+          "timestamp": "2025-11-05T13:56:17.948606"
+        },
+        {
+          "id": "run-2",
+          "status": "completed",
+          "duration": 5346,
+          "gpu_utilization": [
+            82.0757734499596,
+            74.16024693591758,
+            66.21955704494631,
+            65.8748426395548,
+            92.75154529260558,
+            83.04992913266337,
+            51.23792053853713,
+            71.72836831918158,
+            68.00161780928279,
+            70.54509891261789
+          ],
+          "timestamp": "2025-11-01T13:56:17.948648"
+        },
+        {
+          "id": "run-3",
+          "status": "completed",
+          "duration": 12557,
+          "gpu_utilization": [
+            76.2949495499486,
+            91.15892027348603,
+            91.01285597086849,
+            77.8423382334209,
+            66.5155393224388,
+            75.47036776468741,
+            55.72082964283491,
+            85.70363670526498,
+            62.98664733924794,
+            85.78185310819245
+          ],
+          "timestamp": "2025-11-01T13:56:17.948672"
+        },
+        {
+          "id": "run-4",
+          "status": "completed",
+          "duration": 12544,
+          "gpu_utilization": [
+            90.93341280107174,
+            74.02439025378888,
+            54.62533635873502,
+            90.48466242934373,
+            76.15367032131141,
+            54.589933267078315,
+            81.2592327340947,
+            52.58026234140118,
+            87.98338799163685,
+            57.36252209108784
+          ],
+          "timestamp": "2025-11-08T13:56:17.948698"
+        },
+        {
+          "id": "run-5",
+          "status": "completed",
+          "duration": 5612,
+          "gpu_utilization": [
+            88.1832161974316,
+            91.53892845725298,
+            80.30457915410267,
+            74.69564830674221,
+            63.613207731930956,
+            52.17007922660362,
+            78.73442276987565,
+            79.62386950413688,
+            75.76284031273045,
+            89.39267163032412
+          ],
+          "timestamp": "2025-11-06T13:56:17.948720"
+        },
+        {
+          "id": "run-6",
+          "status": "completed",
+          "duration": 11082,
+          "gpu_utilization": [
+            77.97490006772203,
+            87.4750953291182,
+            71.46774837982343,
+            84.3546954469597,
+            69.12251353855916,
+            71.95304266345377,
+            82.8438770414657,
+            52.88194487695244,
+            77.0306612248861,
+            68.24062469989141
+          ],
+          "timestamp": "2025-11-05T13:56:17.948740"
+        },
+        {
+          "id": "run-7",
+          "status": "failed",
+          "duration": 10669,
+          "gpu_utilization": [
+            63.296019257272576,
+            70.3641475329861,
+            53.215334471089356,
+            52.921580424193394,
+            64.1133577112208,
+            65.07406769165587,
+            57.63115041056595,
+            83.8402790115909,
+            82.98773608896153,
+            63.056678742127446
+          ],
+          "timestamp": "2025-11-01T13:56:17.948755"
+        },
+        {
+          "id": "run-8",
+          "status": "completed",
+          "duration": 13905,
+          "gpu_utilization": [
+            92.40474208960867,
+            79.36717931730665,
+            51.250687329811164,
+            90.39979851979527,
+            77.29736175924899,
+            78.62060772578931,
+            71.2125860695511,
+            64.26482570588271,
+            86.28411875970193,
+            83.14600584803965
+          ],
+          "timestamp": "2025-11-07T13:56:17.948769"
+        },
+        {
+          "id": "run-9",
+          "status": "completed",
+          "duration": 5723,
+          "gpu_utilization": [
+            53.67052896373029,
+            86.3783688750245,
+            90.3671941577519,
+            82.00676520175651,
+            76.01621916788396,
+            90.22298848567627,
+            51.42517517731611,
+            77.12079927077403,
+            55.05247341382114,
+            67.34062650542535
+          ],
+          "timestamp": "2025-11-05T13:56:17.948782"
+        },
+        {
+          "id": "run-10",
+          "status": "completed",
+          "duration": 10929,
+          "gpu_utilization": [
+            61.546598584772774,
+            88.08016821554688,
+            73.00364216470139,
+            77.61644076617628,
+            94.29470239653295,
+            67.12637812957146,
+            66.27282814048884,
+            67.99710418083775,
+            57.18459291146401,
+            50.589747609487205
+          ],
+          "timestamp": "2025-11-02T13:56:17.948795"
+        },
+        {
+          "id": "run-11",
+          "status": "completed",
+          "duration": 14205,
+          "gpu_utilization": [
+            76.0772406742216,
+            78.90843280817586,
+            93.55931326495494,
+            74.37782233612305,
+            71.74161405471835,
+            77.01649382033594,
+            58.789837000415574,
+            58.31590602917018,
+            83.58639275833386,
+            72.29924696143163
+          ],
+          "timestamp": "2025-11-05T13:56:17.948808"
+        },
+        {
+          "id": "run-12",
+          "status": "completed",
+          "duration": 1862,
+          "gpu_utilization": [
+            88.44496332792333,
+            73.76421301329779,
+            68.35879742935845,
+            54.17505131037344,
+            56.30154979570395,
+            67.4584886284353,
+            66.8762538049338,
+            59.13764470792468,
+            91.7729840795595,
+            82.85882377175926
+          ],
+          "timestamp": "2025-11-05T13:56:17.948822"
+        },
+        {
+          "id": "run-13",
+          "status": "completed",
+          "duration": 13149,
+          "gpu_utilization": [
+            60.79364576496946,
+            74.9833634160591,
+            68.89979378878171,
+            67.71092564376369,
+            86.68330687085884,
+            88.60536598990372,
+            83.8170460114708,
+            62.190517785795734,
+            75.74784450820708,
+            81.88487359598275
+          ],
+          "timestamp": "2025-11-08T13:56:17.948836"
+        },
+        {
+          "id": "run-14",
+          "status": "completed",
+          "duration": 11462,
+          "gpu_utilization": [
+            90.59925964162758,
+            82.35033788079014,
+            53.16629979105048,
+            76.53303294995881,
+            80.69571086336003,
+            50.937688016606145,
+            85.88727412177026,
+            73.07777882309296,
+            72.42974752735444,
+            88.54385930851481
+          ],
+          "timestamp": "2025-11-03T13:56:17.948849"
+        },
+        {
+          "id": "run-15",
+          "status": "completed",
+          "duration": 6457,
+          "gpu_utilization": [
+            88.59729655626184,
+            65.1173009389274,
+            73.89118742614254,
+            59.53816362427196,
+            84.39217575483653,
+            87.15126330186527,
+            65.72481020861667,
+            92.98506842505392,
+            69.90924789041422,
+            85.36990038552798
+          ],
+          "timestamp": "2025-11-06T13:56:17.948862"
+        },
+        {
+          "id": "run-16",
+          "status": "completed",
+          "duration": 10172,
+          "gpu_utilization": [
+            80.51574927164027,
+            87.27876275530927,
+            85.22705332090588,
+            61.63481823102291,
+            89.66299763646123,
+            69.6841025412601,
+            75.35604893667345,
+            64.04574525222887,
+            50.451891402585005,
+            69.73951378001254
+          ],
+          "timestamp": "2025-11-02T13:56:17.948879"
+        },
+        {
+          "id": "run-17",
+          "status": "completed",
+          "duration": 9065,
+          "gpu_utilization": [
+            62.96434732187993,
+            89.69366778623083,
+            73.07453846076633,
+            56.76724418827884,
+            68.66159259104109,
+            58.20277016079203,
+            92.77471909887774,
+            73.62453826405293,
+            77.83773342505228,
+            82.81352524821475
+          ],
+          "timestamp": "2025-11-07T13:56:17.948896"
+        },
+        {
+          "id": "run-18",
+          "status": "completed",
+          "duration": 12158,
+          "gpu_utilization": [
+            68.27484765670776,
+            83.87331228651107,
+            77.07685941473576,
+            94.08197415636246,
+            85.33474033831624,
+            83.36421303855997,
+            64.3290354909775,
+            52.58796585690141,
+            71.06625125332948,
+            71.12285141707186
+          ],
+          "timestamp": "2025-11-03T13:56:17.948910"
+        },
+        {
+          "id": "run-19",
+          "status": "completed",
+          "duration": 10778,
+          "gpu_utilization": [
+            94.02445187959736,
+            77.74748157973129,
+            94.74668382857558,
+            50.199201687379734,
+            80.56493892790989,
+            88.31865078191635,
+            59.17040123272608,
+            87.78091278318594,
+            78.95961986150857,
+            57.59529112122907
+          ],
+          "timestamp": "2025-11-03T13:56:17.948923"
+        }
+      ],
+      "model_metrics": [
+        {
+          "timestamp": "2025-11-08T13:56:17.948935",
+          "accuracy": 0.8365321163421184,
+          "f1_score": 0.7985277752023109,
+          "precision": 0.8413936077729219,
+          "recall": 0.8596204705063812
+        },
+        {
+          "timestamp": "2025-11-07T13:56:17.948956",
+          "accuracy": 0.826554084981919,
+          "f1_score": 0.7678523873247504,
+          "precision": 0.8184104655226933,
+          "recall": 0.8500423424419233
+        },
+        {
+          "timestamp": "2025-11-06T13:56:17.948971",
+          "accuracy": 0.8420007619328562,
+          "f1_score": 0.8046768650837938,
+          "precision": 0.8372820329410944,
+          "recall": 0.8361284448945601
+        },
+        {
+          "timestamp": "2025-11-05T13:56:17.948981",
+          "accuracy": 0.8264173408600176,
+          "f1_score": 0.7942177732066399,
+          "precision": 0.8363582816998486,
+          "recall": 0.8354558028176162
+        },
+        {
+          "timestamp": "2025-11-04T13:56:17.948991",
+          "accuracy": 0.793251216536117,
+          "f1_score": 0.7550459021293844,
+          "precision": 0.7854330909846298,
+          "recall": 0.7851093416526783
+        },
+        {
+          "timestamp": "2025-11-03T13:56:17.949019",
+          "accuracy": 0.8098958820425817,
+          "f1_score": 0.7686878777943581,
+          "precision": 0.8246209050457038,
+          "recall": 0.7894446215702365
+        },
+        {
+          "timestamp": "2025-11-02T13:56:17.949029",
+          "accuracy": 0.7797924712805989,
+          "f1_score": 0.7485525082308738,
+          "precision": 0.7742609221523766,
+          "recall": 0.7550685044014854
+        },
+        {
+          "timestamp": "2025-11-01T13:56:17.949038",
+          "accuracy": 0.7614899173572209,
+          "f1_score": 0.7145808292662972,
+          "precision": 0.7540345179011129,
+          "recall": 0.7866548416795798
+        },
+        {
+          "timestamp": "2025-10-31T13:56:17.949048",
+          "accuracy": 0.7886017539424102,
+          "f1_score": 0.7326362011026083,
+          "precision": 0.7589853929070506,
+          "recall": 0.8104967913454858
+        },
+        {
+          "timestamp": "2025-10-30T13:56:17.949057",
+          "accuracy": 0.7477712084099464,
+          "f1_score": 0.6865080472373348,
+          "precision": 0.7213492137289986,
+          "recall": 0.7748404752389041
+        }
+      ],
+      "inference_metrics": {
+        "latency_p95": 96.42212633296518,
+        "latency_p99": 179.75317400855593,
+        "throughput": 84.31155884676325,
+        "error_rate": 0.012813249710396834
+      },
+      "data_metrics": {
+        "drift_score": 0.11804983912671556,
+        "quality_score": 0.9390176887470683,
+        "missing_value_rate": 0.06419851042351286,
+        "schema_violations": 0,
+        "outlier_rate": 0.023746658662239774
+      }
+    },
+    "issues": [
+      {
+        "severity": "critical",
+        "category": "reliability",
+        "title": "High Inference Error Rate",
+        "description": "Inference error rate is 1.3%",
+        "affected_component": "Model Serving",
+        "impact": "High error rate indicates serving instability and affects user experience",
+        "recommendation": "Investigate error logs, add input validation, implement fallback mechanisms, improve error handling, monitor model serving health",
+        "confidence": 0.95,
+        "metadata": {
+          "error_rate": 0.012813249710396834
+        }
+      },
+      {
+        "severity": "high",
+        "category": "quality",
+        "title": "Data Drift Detected",
+        "description": "Data drift score is 0.12, exceeding threshold",
+        "affected_component": "Input Data",
+        "impact": "Data drift causes model performance degradation and unreliable predictions",
+        "recommendation": "Retrain model with recent data, implement continuous monitoring, set up automated retraining pipeline, investigate root cause of drift",
+        "confidence": 0.92,
+        "metadata": {
+          "drift_score": 0.11804983912671556
+        }
+      },
+      {
+        "severity": "medium",
+        "category": "quality",
+        "title": "Low Data Quality",
+        "description": "Data quality score is 93.90%",
+        "affected_component": "Input Data",
+        "impact": "Low data quality leads to poor model performance and unreliable predictions",
+        "recommendation": "Implement data validation rules, add data quality checks in pipeline, investigate and fix data collection issues, add data cleaning steps",
+        "confidence": 0.85,
+        "metadata": {
+          "quality_score": 0.9390176887470683
+        }
+      },
+      {
+        "severity": "medium",
+        "category": "performance",
+        "title": "Low Inference Throughput",
+        "description": "Inference throughput is 84 req/s",
+        "affected_component": "Model Serving",
+        "impact": "Low throughput limits system capacity and may require overprovisioning",
+        "recommendation": "Enable request batching, optimize preprocessing, use GPU inference, implement model parallelism, review resource allocation",
+        "confidence": 0.83,
+        "metadata": {
+          "throughput": 84.31155884676325
+        }
+      },
+      {
+        "severity": "medium",
+        "category": "quality",
+        "title": "High Missing Value Rate",
+        "description": "Missing value rate is 6.4%",
+        "affected_component": "Input Data",
+        "impact": "High missing value rate reduces model training effectiveness and prediction coverage",
+        "recommendation": "Implement proper imputation strategies, investigate data collection issues, consider dropping features with excessive missing values, add data validation",
+        "confidence": 0.8,
+        "metadata": {
+          "missing_rate": 0.06419851042351286
+        }
+      },
+      {
+        "severity": "low",
+        "category": "quality",
+        "title": "Poor Experiment Organization",
+        "description": "10 out of 15 experiments lack proper tagging",
+        "affected_component": "Experiment Tracking",
+        "impact": "Poor organization makes it difficult to track progress and reproduce results",
+        "recommendation": "Implement consistent tagging strategy, add metadata to experiments, use meaningful names, document experiment purpose",
+        "confidence": 0.75,
+        "metadata": {
+          "untagged_count": 10,
+          "total_count": 15
+        }
+      }
+    ],
+    "summary": {
+      "total": 6,
+      "by_severity": {
+        "critical": 1,
+        "high": 1,
+        "medium": 3,
+        "low": 1
+      },
+      "by_category": {
+        "reliability": 1,
+        "quality": 4,
+        "performance": 1
+      }
+    }
+  },
+  "cross_pipeline_issues": [
+    {
+      "severity": "critical",
+      "category": "reliability",
+      "title": "Cascading Failures Detected",
+      "description": "Build failures (1) are likely causing deployment issues (1)",
+      "affected_component": "CI/CD Pipeline",
+      "impact": "Build failures block deployments, creating a bottleneck in the release process",
+      "recommendation": "Fix build issues first: address test failures, resolve dependency conflicts, improve build stability",
+      "confidence": 0.85,
+      "metadata": {
+        "build_failures": 1,
+        "deployment_failures": 1
+      }
+    },
+    {
+      "severity": "high",
+      "category": "performance",
+      "title": "System-Wide Resource Constraints",
+      "description": "Multiple pipelines experiencing resource constraints (2 issues)",
+      "affected_component": "Infrastructure",
+      "impact": "Resource constraints are creating bottlenecks across DevOps and MLOps pipelines",
+      "recommendation": "Scale infrastructure, optimize resource allocation, implement resource quotas, investigate resource leaks",
+      "confidence": 0.8,
+      "metadata": {
+        "resource_issue_count": 2
+      }
+    }
+  ]
+}

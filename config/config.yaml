@@ -1,0 +1,40 @@
+# Configuration for AI Pipeline Optimizer
+
+# AI Agent Configuration
+agent:
+  model: "gpt-4"  # AI model to use
+  temperature: 0.7
+  max_tokens: 2000
+  # api_key: ""  # Set via environment variable: OPENAI_API_KEY
+
+# Monitoring Configuration
+monitoring:
+  interval: 300  # Check interval in seconds (5 minutes)
+  
+  # Alert thresholds
+  alert_threshold:
+    failure_rate: 0.1  # Alert if >10% failure rate
+    duration_increase: 1.5  # Alert if duration increases by >50%
+    resource_usage: 0.8  # Alert if resource usage >80%
+  
+  enable_notifications: true
+  notification_channels:
+    - email
+    - slack
+
+# Pipeline Sources Configuration
+pipeline:
+  # DevOps pipeline sources
+  devops_sources:
+    - "https://jenkins.example.com"
+    # - "https://github.com/org/repo"
+    # - "https://gitlab.example.com"
+  
+  # MLOps pipeline sources
+  mlops_sources:
+    - "http://mlflow.example.com"
+    # - "https://kubeflow.example.com"
+    # - "https://k8s-cluster.example.com"
+  
+  max_history: 100  # Number of historical pipeline runs to analyze
+  analysis_depth: "detailed"  # Options: basic, detailed, comprehensive
